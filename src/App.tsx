@@ -58,42 +58,6 @@ function App() {
             </div>
           </div>
 
-          {/* Contact Form */}
-          <div className="bg-gray-50 p-6 rounded-lg h-fit">
-            <h3 className="text-xl font-semibold mb-4">Contact Agent</h3>
-            <form className="space-y-4">
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">Name</label>
-                <input type="text" className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" />
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">Email</label>
-                <input type="email" className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" />
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">Phone</label>
-                <input type="tel" className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" />
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">Message</label>
-                <textarea rows={4} className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"></textarea>
-              </div>
-              <button type="submit" className="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition-colors">
-                Send Message
-              </button>
-            </form>
-
-            <div className="mt-6 space-y-3">
-              <a href="tel:+1234567890" className="flex items-center gap-2 text-gray-600 hover:text-blue-600">
-                <Phone className="w-5 h-5" />
-                (123) 456-7890
-              </a>
-              <a href="mailto:agent@example.com" className="flex items-center gap-2 text-gray-600 hover:text-blue-600">
-                <Mail className="w-5 h-5" />
-                agent@example.com
-              </a>
-            </div>
-          </div>
         </div>
       </div>
     </div>
